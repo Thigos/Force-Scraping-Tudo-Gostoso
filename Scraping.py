@@ -213,7 +213,7 @@ def write_database(recipe, category_name):
 
 
 def generate_json():
-    """load_browser()
+    load_browser()
     data = read_data_json()
     saved_recipes = []
 
@@ -235,7 +235,7 @@ def generate_json():
     for category in list_categories_up:
         get_data_in_category(category)
 
-    driver.close()"""
+    driver.close()
 
     # LOAD IGNORED WORD
     ignored_words = read_ignored_words()
